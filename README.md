@@ -1,6 +1,7 @@
 # AI Mathematical Olympiad - Progress Prize 1
 
 ## Challenge description
+
 The goal of this competition is to create algorithms and models that can solve tricky math problems written in LaTeX format. Your participation will help to advance AI models’ mathematical reasoning skills and drive frontier knowledge.
 
 Problem Set: 110 novel math problems (intermediate high-school level), covering arithmetic, algebra, and geometry.
@@ -10,6 +11,9 @@ Benchmark: Current Gemma 7B performance is 3/50 on both public and private test 
 No Train–Test Leakage: All problems were created by an international team to ensure a transparent, fair evaluation without data contamination.
 
 Submit predictions using the provided Python evaluation API, which serves test instances one by one in random order. 
+
+Kaggle Competion [AI Mathematical Olympiad - Progress Prize 1](https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize).
+
 
 ## Proposed solution 
 This repository implements various generation strategies using the Deepseek‑math model (8‑bit quantized) via the Transformers library. The model is downloaded from Hugging Face.
